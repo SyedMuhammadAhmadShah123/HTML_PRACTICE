@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Task Number 4</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Sign-Up</h1>
 
-    <form >
-        <input type="text" placeholder="First Name" required>
-        <br>
-        <input type="text" placeholder="Last Name" required>
-        <br>
-        <input type="tel" placeholder="Phone Number" pattern="[0-9]{4}[0-9]{7}" required>
-        <br>
-        <input type="email" placeholder="email@abcmail.com" required>
-        <br>
-        <input type="submit" value="Sign-Up">
-        <br>
-
+    <form autocomplete="on">
+      <input type="text" placeholder="First Name" required />
+      <br />
+      <input type="text" placeholder="Last Name" required />
+      <br />
+      <input type="email" placeholder="email@abcmail.com" required />
+      <br />
+      <input
+        type="tel"
+        placeholder="Phone Number"
+        pattern="[0-9]{4}[0-9]{7}"
+        required
+      />
+      <br />
+      <input type="password" placeholder="Password" required />
+      <br />
+      <input type="password" placeholder="Verify Password" required />
+      <br />
+      <input type="submit" value="Sign-Up" />
+      <br />
+      <h3>Already have account?</h3>
+      <a href="http://127.0.0.1:5500/Sign-In.html">Sign-In</a>
     </form>
-    
-</body>
+  </body>
 </html>
